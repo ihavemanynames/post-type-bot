@@ -4,6 +4,7 @@ import time
 import datetime
 
 import praw
+from prawcore import RequestException
 
 
 reddit = praw.Reddit(
