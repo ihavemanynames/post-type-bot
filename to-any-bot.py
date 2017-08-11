@@ -40,6 +40,7 @@ def main():
         except Exception as e:  
             # If attempt wasn't successful for some other reason, log the exception and try again.
             logging.exception('Unable to change settings. Trying again...')
+	    time.sleep(10)
             
             
 if __name__ == "__main__":
